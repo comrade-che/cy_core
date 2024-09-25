@@ -1,0 +1,44 @@
+{
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "string"
+        },
+        "actorType": {
+            "type": "string"
+        },
+        "name": {
+            "type": "string"
+        },
+        "groups": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "type": "string"
+                    },
+                    "actorType": {
+                        "type": "string"
+                    },
+                    "name": {
+                        "type": "string"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "id",
+                    "actorType",
+                    "name"
+                ]
+            }
+        }
+    },
+    "additionalProperties": false,
+    "required": [
+        "id",
+        "actorType",
+        "name",
+        "groups"
+    ]
+}

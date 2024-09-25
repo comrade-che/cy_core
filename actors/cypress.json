@@ -1,0 +1,12 @@
+{
+    "baseURL": " ",
+    "defaultCommandTimeout": 10000,
+    "pageLoadTimeout": 8000,
+    "chromeWebSecurity": false,
+    "numTestsKeptInMemory": 50,
+    "projectId": "Actors_v2",
+    "autor": "ChernenkoEG",
+    "viewportWidth": 1920,
+    "viewportHeight": 1080,
+    "video": true
+}

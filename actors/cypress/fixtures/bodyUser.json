@@ -1,0 +1,8 @@
+{
+    "client_id": "185fc080-60e4-4009-a24a-cbed4e6b3bf1",
+    "client_secret": "!autotest1!",
+    "scope": "profile email uid",
+    "grant_type": "password",
+    "username": "at-admin",
+    "password": "b5AR78ghj++"
+}

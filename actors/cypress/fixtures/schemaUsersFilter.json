@@ -1,0 +1,48 @@
+{
+    "type": "object",
+    "properties": {
+        "users": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "type": "string"
+                    },
+                    "firstName": {
+                        "type": "string"
+                    },
+                    "lastName": {
+                        "type": "string"
+                    },
+                    "middlename": {
+                        "type": "string"
+                    },
+                    "email": {
+                        "type": "string"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "id",
+                    "firstName",
+                    "lastName",
+                    "middlename",
+                    "email"
+                ]
+            }
+        },
+        "orgID": {
+            "type": "integer"
+        },
+        "orgShortname": {
+            "type": "string"
+        }
+    },
+    "additionalProperties": false,
+    "required": [
+        "users",
+        "orgID",
+        "orgShortname"
+    ]
+}

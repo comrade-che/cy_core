@@ -1,0 +1,6 @@
+{
+    "qsall": "since=2006-01-02T15%3A04%3A05.999999999Z07%3A00&page=0&count=10&type=&ids=6bd2994e-c6b5-4b28-800e-6a17f54131ea&ids=03386dbe-5185-4b96-900d-c2b1bb368ed6&ids=5df251fe-c046-4c1e-a98a-ec4d81c5ebf9",
+    "qsuser": "since=2006-01-02T15%3A04%3A05.999999999Z07%3A00&page=0&count=10&type=user&ids=6bd2994e-c6b5-4b28-800e-6a17f54131ea&ids=03386dbe-5185-4b96-900d-c2b1bb368ed6&ids=5df251fe-c046-4c1e-a98a-ec4d81c5ebf9",
+    "qsapplication": "since=2006-01-02T15%3A04%3A05.999999999Z07%3A00&page=0&count=10&type=application&ids=6bd2994e-c6b5-4b28-800e-6a17f54131ea&ids=03386dbe-5185-4b96-900d-c2b1bb368ed6&ids=5df251fe-c046-4c1e-a98a-ec4d81c5ebf9",
+    "qsgroup": "since=2006-01-02T15%3A04%3A05.999999999Z07%3A00&page=0&count=10&type=group&ids=6bd2994e-c6b5-4b28-800e-6a17f54131ea&ids=03386dbe-5185-4b96-900d-c2b1bb368ed6&ids=5df251fe-c046-4c1e-a98a-ec4d81c5ebf9"
+}

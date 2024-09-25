@@ -1,0 +1,12 @@
+{
+    "type": "object", "properties": {
+		"id": {"type":"string"},
+		"type": {"type":"string"},
+		"avanpostType": {"type":"string"}
+	},
+	"required": [
+		"id",
+		"type",
+		"avanpostType"
+	]
+}

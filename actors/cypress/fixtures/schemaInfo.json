@@ -1,0 +1,38 @@
+{
+    "type": "object",
+    "properties": {
+        "App": {
+            "type": "object",
+            "properties": {
+                "name": {
+                    "type": "string"
+                },
+                "version": {
+                    "type": "string"
+                }
+            },
+            "additionalProperties": false,
+            "required": [
+                "name",
+                "version"
+            ]
+        },
+        "Postgres": {
+            "type": "object",
+            "properties": {
+                "migrationVersion": {
+                    "type": "integer"
+                }
+            },
+            "additionalProperties": false,
+            "required": [
+                "migrationVersion"
+            ]
+        }
+    },
+    "additionalProperties": false,
+    "required": [
+        "App",
+        "Postgres"
+    ]
+}

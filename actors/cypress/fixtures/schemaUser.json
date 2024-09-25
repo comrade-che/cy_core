@@ -1,0 +1,186 @@
+{
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "string"
+        },
+        "actorType": {
+            "type": "string"
+        },
+        "username": {
+            "type": "string"
+        },
+        "firstname": {
+            "type": "string"
+        },
+        "lastname": {
+            "type": "string"
+        },
+        "middlename": {
+            "type": "string"
+        },
+        "email": {
+            "type": "string"
+        },
+        "phoneNumberConfirmed": {
+            "type": "string"
+        },
+        "phoneNumberUnconfirmed": {
+            "type": "string"
+        },
+        "userGroups": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "type": "string"
+                    },
+                    "name": {
+                        "type": "string"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "id",
+                    "name"
+                ]
+            }
+        },
+        "organization": {
+            "type": "object",
+            "properties": {
+                "id": {
+                    "type": "string"
+                },
+                "shortname": {
+                    "type": "string"
+                },
+                "inn": {
+                    "type": "string"
+                },
+                "email": {
+                    "type": "string"
+                },
+                "mobile": {
+                    "type": "string"
+                },
+                "address": {
+                    "type": "string"
+                },
+                "type": {
+                    "type": "string"
+                },
+                "ogrn": {
+                    "type": "string"
+                },
+                "agencyTerRange": {
+                    "type": "string"
+                },
+                "agencyType": {
+                    "type": "string"
+                },
+                "oktmo": {
+                    "type": "string"
+                },
+                "leg": {
+                    "type": "string"
+                },
+                "kpp": {
+                    "type": "string"
+                }
+            },
+            "additionalProperties": false,
+            "required": [
+                "id",
+                "shortname",
+                "inn",
+                "email",
+                "mobile",
+                "address",
+                "type",
+                "ogrn",
+                "agencyTerRange",
+                "agencyType",
+                "oktmo",
+                "leg",
+                "kpp"
+            ]
+        },
+        "userData": {
+            "type": "object",
+            "properties": {
+                "snils": {
+                    "type": "string"
+                },
+                "inn": {
+                    "type": "string"
+                },
+                "passportNumber": {
+                    "type": "string"
+                },
+                "passportSeries": {
+                    "type": "string"
+                },
+                "passportIssedBy": {
+                    "type": "string"
+                },
+                "passportIssueDate": {
+                    "type": "string"
+                },
+                "birthdate": {
+                    "type": "string"
+                },
+                "chief": {
+                    "type": "string"
+                },
+                "typeAccount": {
+                    "type": "string"
+                },
+                "displayName": {
+                    "type": "string"
+                },
+                "gender": {
+                    "type": "string"
+                },
+                "contactsRaw": {
+                    "type": "string"
+                },
+                "position": {
+                    "type": "string"
+                }
+            },
+            "additionalProperties": false,
+            "required": [
+                "snils",
+                "inn",
+                "passportNumber",
+                "passportSeries",
+                "passportIssedBy",
+                "passportIssueDate",
+                "birthdate",
+                "chief",
+                "typeAccount",
+                "displayName",
+                "gender",
+                "contactsRaw",
+                "position"
+            ]
+        }
+    },
+    "additionalProperties": false,
+    "required": [
+        "id",
+        "actorType",
+        "username",
+        "firstname",
+        "lastname",
+        "middlename",
+        "email",
+        "phoneNumberConfirmed",
+        "phoneNumberUnconfirmed",
+        "userGroups",
+        "organization",
+        "userData"
+    ]
+}
